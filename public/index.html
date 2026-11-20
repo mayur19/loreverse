@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LoreVerse</title>
+    <style>
+      :root { color-scheme: dark; font-family: ui-serif, Georgia, serif; background:#100c18; color:#f3edf8; }
+      body { margin:0; min-height:100vh; display:grid; place-items:center; background:radial-gradient(circle at 20% 20%,#49305d,#100c18 55%); }
+      main { width:min(760px,88vw); padding:4rem 0; }
+      .eyebrow { color:#d5a8ff; letter-spacing:.18em; text-transform:uppercase; font:600 .75rem ui-sans-serif,sans-serif; }
+      h1 { font-size:clamp(3rem,10vw,6rem); margin:.4rem 0; }
+      p { max-width:55ch; font-size:1.15rem; line-height:1.7; color:#d8cfe0; }
+      .card { margin-top:2rem; border:1px solid #6d567c; border-radius:20px; padding:1.5rem; background:#1c1426cc; }
+      code { color:#e8c9ff; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">Open source worldbuilding</div>
+      <h1>LoreVerse</h1>
+      <p>Build a living fictional universe from connected characters, places, factions and events. Publish deliberate canon releases without exposing unfinished lore.</p>
+      <div class="card"><strong>Foundation preview</strong><p>The first slice implements structured lore entries, immutable revision history, optimistic conflict detection and release snapshots.</p><code>GET /api/health</code></div>
+    </main>
+  </body>
+</html>
+
